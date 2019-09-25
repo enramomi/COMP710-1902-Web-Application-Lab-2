@@ -66,7 +66,7 @@
         <img src="{{ URL::to('/assets/images/mainImage.png') }}">
     </div>
         <p style="text-align:center">
-      <a href="booking">Book an Appointment</a> &nbsp&nbsp&nbsp&nbsp
+      <a href="booking" target="_blank">Book an Appointment</a> &nbsp&nbsp&nbsp&nbsp
       <a href="https://www.youtube.com/watch?v=wUfuG3go2-s">Click here to Watch Video</a>
     </p>
     
