@@ -18,3 +18,36 @@ Route::get('/', function () {
 Route::get('/index', function(){
     return view('index');
 });
+
+Route::get('/aboutus', function(){
+    return view('aboutus');
+});
+
+Route::get('/booking', function(){
+    return view('booking');
+});
+
+Route::get('/contactus', function(){
+    return view('contactus');
+});
+
+Route::get('/dashboard', function(){
+    return view('dashboard');
+});
+
+Route::get('/gallery', function(){
+    return view('gallery');
+});
+
+
+Route::get('/login', function(){
+    return view('login');
+});
+
+Route::get('/Registration', function(){
+    return view('Registration');
+});
+
+Route::get('/services', function(){
+    return view('services');
+});
