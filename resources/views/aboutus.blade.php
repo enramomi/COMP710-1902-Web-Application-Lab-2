@@ -35,7 +35,7 @@
     padding: 0px;
     color: white;
     text-align: left;
-    background-color: darkcyan;
+    background-color: black;
   }
   div#footer { 
     padding: 5px;
@@ -43,7 +43,7 @@
     bottom: 0px;
     color: white;
     text-align: center;
-    background-color: darkcyan;
+    background-color: black;
   } 
   
 </style> 

@@ -35,7 +35,7 @@
     padding: 0px;
     color: white;
     text-align: left;
-    background-color: darkcyan;
+    background-color: black;
   }
   div#footer {
     padding: 5px;
@@ -43,7 +43,7 @@
     bottom: 0px;
     color: white;
     text-align: center;
-    background-color: darkcyan;
+    background-color: black;
   } 
 </style> 
   </head>
@@ -53,7 +53,7 @@
             <img src="{{ URL::to('/assets/images/webLogo.png') }}" width="100" height="60"> 
         </a> 
         <div style="text-align:right">
-        <a href="index" style="colour:white">Home</a>
+        <a href="index">Home</a>
         <a href="aboutus">About Us</a>
         <a href="gallery">Gallery</a>
         <a href="services">Services</a>
