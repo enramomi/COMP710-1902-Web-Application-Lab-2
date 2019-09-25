@@ -149,6 +149,8 @@
             
             </tr>
 </table>
+<p style="text-align:center">
+	<button type="submit" class="btn" name="registration">Click To Register</button></p>
      </div>
     <div id="footer">
       <p>© COPYRIGHT BOSSCUTS NEW ZEALAND 2019. ALL RIGHTS RESERVED. &nbsp&nbsp&nbsp 
