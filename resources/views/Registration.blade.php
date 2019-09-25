@@ -63,7 +63,92 @@
     </div>
     <div>
      <h4 style="text-align:center">Fill in the details to Login</h4> 
-     
+     <table align="center"  style="padding: 25px" >
+            <tr>
+                <td>
+                   First Name
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="first_Name" required>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                   Last Name
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                <input type="text" name="last_Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   e-Mail
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="eMail" required>
+                </td>
+            
+            </tr>
+
+            <tr>
+                <td>
+                  Phone Number
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="phone_Number" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                   Date
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="date" required>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+               Time
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="time" required>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                   Message
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <input type="text" name="message" required>
+                </td>
+            
+            </tr>
+</table>
      </div>
     <div id="footer">
       <p>© COPYRIGHT BOSSCUTS NEW ZEALAND 2019. ALL RIGHTS RESERVED. &nbsp&nbsp&nbsp 
