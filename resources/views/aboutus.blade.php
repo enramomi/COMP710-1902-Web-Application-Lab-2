@@ -96,10 +96,18 @@ In 2019 we were honoured to be selected as a Finalist in the Westpac Business Aw
     </div>
     <div id="footer">
       <p>© COPYRIGHT BOSSCUTS NEW ZEALAND 2019. ALL RIGHTS RESERVED. &nbsp&nbsp&nbsp 
-          <a href="https://www.facebook.com/bosscutsnz/"  >F</a>&nbsp&nbsp
-          <a href="https://twitter.com/hashtag/bosscuts">T</a>&nbsp&nbsp
-          <a href="https://www.instagram.com/explore/tags/bosscuts/">I</a>&nbsp&nbsp
-          <a href="https://za.pinterest.com/ebonyelement29/boss-cuts/">P</a> 
+          <a href="https://www.facebook.com/bosscutsnz/"> 
+          <img src="{{ URL::to('/assets/images/Facebook-icon.png') }}" width="30" height="30"> 
+        </a>&nbsp&nbsp
+          <a href="https://twitter.com/hashtag/bosscuts">
+          <img src="{{ URL::to('/assets/images/Twitter-icon.png') }}" width="30" height="30"> 
+          </a> &nbsp
+          <a href="https://www.instagram.com/explore/tags/bosscuts/">
+          <img src="{{ URL::to('/assets/images/Instagram-icon.png') }}" width="30" height="30"> 
+        </a> &nbsp
+          <a href="https://za.pinterest.com/ebonyelement29/boss-cuts/">
+          <img src="{{ URL::to('/assets/images/Pinintrest-icon.png') }}" width="30" height="30">   
+        </a> 
         </p>
     </div>
   </body>
