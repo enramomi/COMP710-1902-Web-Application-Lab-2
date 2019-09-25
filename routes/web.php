@@ -52,5 +52,5 @@ Route::get('/services', function(){
     return view('services');
 });
 
- 
+ Route::post('/book', 'BookingController@getBarber');
 

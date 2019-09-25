@@ -61,35 +61,31 @@
         <a href="login">Login</a>  
         </div>   
     </div>
+   
       <div style="width=98%; text-align:center">
       <br>
       <br>
       <br>
           <h4>Fill all the details to make Booking</h4>
+          
+          
+<form method="post" action="/book">
           <table align="center"  style="padding: 25px" >
             <tr>
                 <td>
-                   First Name
+                     Name
                 </td>
                 <td>
                     :
                 </td>
                 <td>
-                    <input type="text" name="first_Name" required>
+                    <input type="text" name="name" required>
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                 </td>
             
             </tr>
-            <tr>
-                <td>
-                   Last Name
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                <input type="text" name="last_Name" required>
-                </td>
-            </tr>
+            
             <tr>
                 <td>
                    e-Mail
@@ -98,7 +94,7 @@
                     :
                 </td>
                 <td>
-                    <input type="text" name="eMail" required>
+                    <input type="text" name="email" required>
                 </td>
             
             </tr>
@@ -111,7 +107,7 @@
                     :
                 </td>
                 <td>
-                    <input type="text" name="phone_Number" required>
+                    <input type="text" name="number" required>
                 </td>
             </tr>
 
@@ -123,39 +119,17 @@
                     :
                 </td>
                 <td>
-                    <input type="text" name="date" required>
+                    <input type="text" name="booked_time"  >
                 </td>
             
             </tr>
-            <tr>
-                <td>
-               Time
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                    <input type="text" name="time" required>
-                </td>
-            
-            </tr>
-            <tr>
-                <td>
-                   Message
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                    <input type="text" name="message" required>
-                </td>
-            
-            </tr>
-
+             
         </table>
         <p style="text-align:center">
 	<button type="submit" class="btn" name="book_apointment">Click To Confirm Appointment</button></p>
-      </div>
+     
+        </form>
+         </div>
     <div id="footer">
       <p>© COPYRIGHT BOSSCUTS NEW ZEALAND 2019. ALL RIGHTS RESERVED. &nbsp&nbsp&nbsp 
           <a href="https://www.facebook.com/bosscutsnz/"> 
