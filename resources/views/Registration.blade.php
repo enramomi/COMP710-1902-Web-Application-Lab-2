@@ -63,6 +63,9 @@
     </div>
     <div>
      <h4 style="text-align:center">Fill in the details to Login</h4> 
+     <div style="text-align:center">
+        <img src="{{ URL::to('/assets/images/mainImage.png') }}">
+    </div>
      <table align="center"  style="padding: 25px" >
             <tr>
                 <td>
@@ -89,6 +92,17 @@
             </tr>
             <tr>
                 <td>
+                  Password
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                <input type="password" name="password" required>
+                </td>
+            </tr> 
+            <tr>
+                <td>
                    e-Mail
                 </td>
                 <td>
@@ -112,42 +126,6 @@
                 </td>
             </tr>
 
-            <tr>
-                <td>
-                   Date
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                    <input type="text" name="date" required>
-                </td>
-            
-            </tr>
-            <tr>
-                <td>
-               Time
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                    <input type="text" name="time" required>
-                </td>
-            
-            </tr>
-            <tr>
-                <td>
-                   Message
-                </td>
-                <td>
-                    :
-                </td>
-                <td>
-                    <input type="text" name="message" required>
-                </td>
-            
-            </tr>
 </table>
 <p style="text-align:center">
 	<button type="submit" class="btn" name="registration">Click To Register</button></p>
