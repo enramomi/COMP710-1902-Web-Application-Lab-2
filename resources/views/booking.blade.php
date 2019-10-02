@@ -123,6 +123,20 @@
                 </td>
             
             </tr>
+            <tr>
+                <td>
+                   Date
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                <input type="datetime-local" name="time_Booking">
+                </td>
+            
+            </tr>
+
+            
              
         </table>
         <p style="text-align:center">
