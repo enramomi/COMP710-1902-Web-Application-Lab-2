@@ -96,7 +96,7 @@ In 2019 we were honoured to be selected as a Finalist in the Westpac Business Aw
     </div>
     <div id="footer">
       <p>© COPYRIGHT BOSSCUTS NEW ZEALAND 2019. ALL RIGHTS RESERVED. &nbsp&nbsp&nbsp 
-          <a href="https://www.facebook.com/bosscutsnz/"> 
+      <a href="https://www.facebook.com/bosscutsnz/"> 
           <img src="{{ URL::to('/assets/images/Facebook-icon.png') }}" width="30" height="30"> 
         </a>&nbsp&nbsp
           <a href="https://twitter.com/hashtag/bosscuts">
