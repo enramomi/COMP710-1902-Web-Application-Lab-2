@@ -49,16 +49,21 @@
   </head>
   <body>    
   <div id="header">
-      <a href="index">
+      <a href="/">
             <img src="{{ URL::to('/assets/images/webLogo.png') }}" width="100" height="60"> 
         </a> 
         <div style="text-align:right">
-        <a href="index">Home</a>
+        @if (Auth::check())
+        <a href="viewbookings">View Bookings</a>
+@else
+<a href="/">Home</a>
         <a href="aboutus">About Us</a>
         <a href="gallery">Gallery</a>
         <a href="services">Services</a>
         <a href="contactus">Contact Us</a>      
         <a href="login">Login</a>  
+@endif
+        
         </div>   
     </div>
     <h3 style="text-align:center">Welcome to Boss Cuts</h3>

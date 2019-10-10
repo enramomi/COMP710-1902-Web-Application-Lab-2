@@ -11,16 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Booking;
 
-Route::get('/index', function(){
+Route::get('/', function(){
     return view('index');
 });
 
 Route::get('/aboutus', function(){
     return view('aboutus');
+});
+Route::get('/viewbookings', function(){
+    $booking = Booking::all();
+    return view('viewbookings',compact('booking'));
 });
 
 Route::get('/booking', function(){
@@ -53,4 +55,9 @@ Route::get('/services', function(){
 });
 
  Route::post('/book', 'BookingController@getBarber');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 

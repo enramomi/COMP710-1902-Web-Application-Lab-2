@@ -79,8 +79,8 @@
                    Fairfield,
                    Hamilton
                    3214 <br>
-                   <h5>Phone: 07-855 6874</h5>
-                   <h5>e-Mail: bosscuts@barber-shop.com</h5>
+                   <h5>Phone: 07-855 6874 & 02102844736</h5>
+                   <h5>e-Mail:  bosscutshamilton@gmail.com</h5>
                    <h5>Business hours: Open all days 9am - 5pm</h5>
                </h5>
              </td>
