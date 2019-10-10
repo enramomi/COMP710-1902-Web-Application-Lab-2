@@ -50,11 +50,11 @@
   </head>
   <body>    
   <div id="header">
-      <a href="index">
+      <a href="/">
             <img src="{{ URL::to('/assets/images/webLogo.png') }}" width="100" height="60">
         </a>
         <div style="text-align:right">
-        <a href="index" style="colour:white">Home</a>
+        <a href="/" style="colour:white">Home</a>
         <a href="aboutus">About Us</a>
         <a href="gallery">Gallery</a>
         <a href="services">Services</a>
